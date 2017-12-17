@@ -1,0 +1,134 @@
+html{
+  overflow-x: hidden;
+}
+
+body{
+  background-color: #38383E;
+  color: white;
+
+}
+.section-principal{
+  margin-top: 4vh;
+}
+
+.main-user-photo{
+  border:1px solid white;
+  border-radius: 50%;
+  width: 15%;
+  display: inline-block;
+  margin-right: 5%;
+
+}
+.glyphicon{
+  color: ##5D5B5B;
+  font-size: 1.5em;
+}
+.glyphicon-envelope{
+  margin-left: 30%;
+  margin-right: 3%;
+}
+.section-user{
+  border: 1px solid white;
+  height: 90vh;
+  padding: 0;
+  background-color: white;
+  overflow-y: scroll;
+}
+.main-user{
+  border-bottom: 1px solid white;
+  width: 100%;
+  padding: 2%;
+  background-color: #ACACAC;
+}
+.logo{
+  width: 47px;
+}
+.row-main-chat{
+  border: 1px solid white;
+  padding:2%;
+  background-color: #ACACAC;
+  padding: 0.86%;
+}
+.section-chat{
+  border: 1px solid white;
+  height: 90vh;
+  background-image:url(../../prueba/proyecto/img/chat-panel-bg.png);
+  overflow-y: scroll;
+
+
+}
+.search-input{
+  border-radius: 1.5em;
+  width: 95%;
+  height: 2.5em;
+  color: grey;
+  outline: none;
+
+}
+.div-input-search{
+  border-bottom:1px solid grey;
+  padding: 4%;
+  padding-bottom: 0;
+}
+.input-box-chat{
+  
+  width: 70%;
+  height: 2.5em;
+  color: grey;
+  margin-left: 4em;
+}
+.btn-chat{
+  width: 12.3%;
+}
+.comment-div{
+  background-color: #C9C9C9;
+  width: auto;
+  margin-bottom: 1em;
+}
+.name-user{
+  font-weight: bolder;
+  color: orange;
+  display: inline-block;
+  padding-left: 1em;
+}
+
+p{
+  color: #525151;
+}
+.name{
+  color: black;
+  font-weight: bolder;
+}
+.date{
+  font-size: 1em;
+  color: black;
+  position: relative;
+  bottom: 10vh;
+  left: 100vh;
+}
+.litle-chat{
+  color: black;
+  margin-left: 7em;
+}
+.name-user-2{
+  font-weight: bolder;
+  color: purple;
+  display: inline-block;
+  padding-left: 1em;
+}
+.name-user-3{
+  font-weight: bolder;
+  color:hotpink;
+  display: inline-block;
+  padding-left: 1em;
+}
+.div-input-search:hover{
+ background-color: #D9D9D9;
+ cursor: pointer;
+}
+
+.photo-chat{
+  border-radius: 50%;
+  width: 6%;
+  display: inline-block;
+}
